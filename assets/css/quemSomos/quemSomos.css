@@ -1,4 +1,6 @@
 .quem-somos {
-    padding: 3rem;
-    text-align: center;
+    display: flex;
+    width: 85%;
+    flex-flow: wrap column;
+    margin: 0 7.5%;
 }

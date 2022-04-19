@@ -10,6 +10,7 @@
     width: 100%;
     font-weight: 400;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .titulo__profissionais {
@@ -19,7 +20,7 @@
 
 @media screen and (min-width: 0) {
     .banner__titulo {
-        font-size: 2rem;
+        font-size: 3.25rem;
     }
 
 }
@@ -28,4 +29,5 @@
     .banner__titulo {
         font-size: 8rem;
     }
+
 }
