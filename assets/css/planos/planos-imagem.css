@@ -1,4 +1,9 @@
 .planos__imagem {
     height: 170px;
-    background-color: greenyellow;
+}
+
+.noticias__imagens {
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
 }
