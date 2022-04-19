@@ -1,0 +1,23 @@
+.banner__imagem {
+    height: calc(100vh - 370px);
+    width: 100%;
+    opacity: 20%;
+}
+
+.banner__container {
+    background-color: black;
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagem {
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagem {
+        height: calc(100vh - 116px);
+    }
+
+
+}

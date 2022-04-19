@@ -1,0 +1,31 @@
+.banner__titulo {
+    color: #FFFFFF;
+    font-family: 'Audiowide', cursive;
+    left: 50%;
+    position: absolute;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 1);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.titulo__profissionais {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 6rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .banner__titulo {
+        font-size: 8rem;
+    }
+}

@@ -1,0 +1,27 @@
+.icone-logo {
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    border: 2px solid #097910;
+    border-radius: 5px;
+    background-color: green;    
+}
+
+.logo:hover {
+    font-size: 2.6rem;
+    transition-duration: 1s;
+}
+
+@media screen and (min-width: 0) {
+    .logo {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        display: block;
+    }
+
+}

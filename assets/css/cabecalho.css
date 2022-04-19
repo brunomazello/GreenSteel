@@ -1,0 +1,28 @@
+.cabecalho {
+    align-items: center;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background: -webkit-linear-gradient(90deg, #097910 35%, #adff2f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-family: 'Audiowide', cursive;
+}
+
+
+@media screen and (min-width: 0) {
+    .cabecalho {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding: 30px 120px 30px 120px;
+        justify-content: space-between;
+    }
+}
