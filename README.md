@@ -1,8 +1,37 @@
-# codemasters
- Projeto de Website feito em HTML5 + CSS3 responsivo
- 
-- A ideia do projeto é o desenvolvimento para responsividade em aplicativos móveis/portáteis.
-- Foram resolvidos vários problemas de compatibilidade usando CSS/HTML5.
-- Site desenvolvido com a metodologia BEM
+<div id="top"></div>
 
-Update 01 - Corrigido subtítulo.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+<h3 align="center">Green Steel - Bootstrap</h3>
+
+  <p align="center">
+    Projeto desenvolvido para atender ao teste de Frontend da Chuva!
+    <br />
+    <br />
+    <a href="https://brunomazello.github.io/GreenSteel/">Ver Demo</a>
+    ·
+    <a href="https://github.com/brunomazello/GreenSteel/issues">Reporte um Bug</a>
+    ·
+    <a href="https://github.com/brunomazello/GreenSteel/issues">Solicite um Feature</a>
+  </p>
+</div>
+
+<!-- ABOUT THE PROJECT -->
+## Sobre o Projeto:
+
+O projeto foi desenvolvido baseado no modelo apresentado no FIGMA.
+
+### Construído com:
+
+* [Bootstrap](https://getbootstrap.com)
+* HTML5
+* CSS3
+
+
+<!-- CONTACT -->
+## Contato
+
+Bruno Mazello - bruno.rmazello@gmail.com
+
+
