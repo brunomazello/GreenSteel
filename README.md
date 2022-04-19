@@ -6,7 +6,7 @@
 <h3 align="center">Green Steel - Bootstrap</h3>
 
   <p align="center">
-    Projeto desenvolvido para atender ao teste de Frontend da Chuva!
+    Projeto desenvolvido para a empresa Green Steel focado plataformas mobile (responsível).
     <br />
     <br />
     <a href="https://brunomazello.github.io/GreenSteel/">Ver Demo</a>
