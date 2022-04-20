@@ -1,7 +1,7 @@
 .banner__imagem {
     height: calc(100vh - 370px);
     width: 100%;
-    opacity: 20%;
+    opacity: 60%;
 }
 
 .banner__container {

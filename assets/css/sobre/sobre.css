@@ -1,9 +1,8 @@
 .sobre {
     display: flex;
-    width: 85%;
+    width: 80%;
     flex-flow: wrap column;
-    margin: 0 7.5%;
-
+    margin: 0px 8%;
 }
 
 strong {
