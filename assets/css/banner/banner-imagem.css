@@ -1,7 +1,7 @@
 .banner__imagem {
     height: calc(100vh - 370px);
     width: 100%;
-    opacity: 60%;
+    opacity: 20%;
 }
 
 .banner__container {
@@ -10,13 +10,15 @@
 
 @media screen and (min-width: 0) {
     .banner__imagem {
-        height: calc(100vh - 51px);
+        height: calc(100vh - 650px);
+        opacity: 70%;
     }
 }
 
 @media screen and (min-width: 768px) {
     .banner__imagem {
-        height: calc(100vh - 116px);
+        height: calc(100vh - 130px);
+        opacity: 20%;
     }
 
 

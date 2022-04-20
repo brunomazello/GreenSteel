@@ -1,19 +1,51 @@
 .menu__link {
-    color: green;
     margin-right: 2rem;
     text-decoration: none;
     text-transform: lowercase;
-    font-family: 'Roboto', sans-serif; 
-
-}
-
-.menu__link.ativo {
-    color: greenyellow;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: green;
 }
 
 
-.menu__link:hover {
-    text-decoration: underline;
-    font-size: 18px;
+@media screen and (min-width: 0) {
+    .menu__link {
+        font-size: 14px;
+        margin-right: 1rem;
+        padding: 8px;
+        border: 1px solid transparent;
+    }
+
+    .menu__link:hover {
+        font-size: 14px;
+        transition: 1s all;
+        text-decoration: none;
+        color: greenyellow;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .menu__link:hover {
+        text-decoration: underline;
+        font-size: 18px;
+        color: greenyellow;
+    }
+
+    .menu__link {
+        color: green;
+        margin-right: 2rem;
+        text-decoration: none;
+        text-transform: lowercase;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        border: 0px
+    }
+    
+    .menu__link.ativo {
+        color: greenyellow;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
 }
