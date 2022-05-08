@@ -4,3 +4,8 @@
     flex-flow: wrap column;
     margin: 0 7.5%;
 }
+
+.row a:hover {
+    transition: .5s;
+    opacity: 0.3;
+}

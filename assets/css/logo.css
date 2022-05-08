@@ -15,11 +15,6 @@
     background-color: green;    
 }
 
-/* .logo:hover {
-    font-size: 2.6rem;
-    transition-duration: 1s;
-} */
-
 @media screen and (min-width: 0) {
     .logo {
         /* display: none; */

@@ -1,0 +1,6 @@
+.imagem__rivieira {
+    height: calc(100vh - 370px);
+    width: 100%;
+    min-height: 600px;
+    opacity: 100%;
+}
