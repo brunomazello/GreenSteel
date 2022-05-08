@@ -9,11 +9,11 @@
     Projeto desenvolvido para a empresa Green Steel focado plataformas mobile (responsível).
     <br />
     <br />
-    <a href="https://brunomazello.github.io/GreenSteel/">Ver Demo</a>
+    <a href="https://brunomazello.github.io/GreenSteel/" target="_blank">Ver Demo</a>
     ·
-    <a href="https://github.com/brunomazello/GreenSteel/issues">Reporte um Bug</a>
+    <a href="https://github.com/brunomazello/GreenSteel/issues" target="_blank">Reporte um Bug</a>
     ·
-    <a href="https://github.com/brunomazello/GreenSteel/issues">Solicite um Feature</a>
+    <a href="https://github.com/brunomazello/GreenSteel/issues" target="_blank">Solicite um Feature</a>
   </p>
 </div>
 
