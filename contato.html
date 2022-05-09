@@ -67,48 +67,50 @@
             <ul class="menu__lista">
                 <li class="menu__item"><a class="menu__link ativo" href="index.html">Início</a></li>
                 <li class="menu__item"><a class="menu__link" href="/projetos.html">Projetos</a></li>
-                <li class="menu__item"><a class="menu__link" href="/contatos.html">Contato</a></li>
+                <li class="menu__item"><a class="menu__link" href="/contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
-        <section class="sobre">
-
-            <div class="sobre__descricao">
-                <h1 class="sobre__titulo font-weight-bold mt-3">Sobre</h1>
-
-                <p>Empresa voltada para a construção no método <strong>Light Steel Frame</strong>, uma construção
-                    moderna, rápida e com muita tecnologia. O material usado em todo o sistema construtivo é de
-                    qualidade
-                    comprovada e com certificação de garantia direto dos fabricantes. Fazemos sua casa em qualquer
-                    estilo em
-                    tempo menor que o de alvenaria. As casas em LSF são termo acústicas, com menor consumo de energia
-                    elétrica e
-                    maior durabilidade. Comprove. Venha visitar nossas obras.</span></p>
-
-                <p><strong>Nosso Lema: </strong>Atender e superar as expectativas de nossos clientes, oferecendo um
-                    trabalho
-                    eficiente,
-                    dinâmico, totalmente voltado para as suas necessidades . Usando Matéria Prima ( Aços / Placas etc )
-                    com
-                    a
-                    mais alta qualidade e tecnologia existentes no mercado.</p>
-
-                <p><strong>Nossa História:</strong> Somos moradores em um loteamento chamado Ninho Verde II, local
-                    prospero
-                    com muitas
-                    necessidades no âmbito habitacional. Notamos inúmeros problemas na qualidade das obras existentes,
-                    ouvimos
-                    muitos clientes insatisfeitos. Foi ai que em Setembro de 2019 nasceu a ideia de ofertarmos um
-                    trabalho
-                    diferenciado voltado para o cliente. Imediatamente conquistamos nosso primeiro e depois o segundo
-                    CLIENTE e
-                    ai vamos. Em 2021 será o ano onde nossa qualidade se consolidará e nossos objetivos serão
-                    concretizados.
-                </p>
-                <img src="./assets/img/construction.jpg" alt=""
-                    class="mb-3 rounded img-thumbnail w-auto mx-auto d-block">
+    <div class="container">
+        <div class="row">
+            <div class="card d-flex justify-content-center mx-auto my-3 p-5">
+                <h6 class="text-muted">Contato</h6>
+                <h2 class="mb-3 display-5 text-success">Formulário de contato</h2>
+            
+                    <div class="form-row">
+                        <div class="form-group col-md-6 first">
+                             <label for="inputFirstName">PRIMEIRO NOME <span>*</span></label>
+                             <input type="text" class="form-control" id="inputFirstName" name="firstname" required>
+                             <div id="fname_error" class="val_error"></div>
+                           </div>
+                           <div class="form-group col-md-6 first">
+                              <label for="inputLastName">ÚLTIMO NOME <span>*</span></label>
+                              <input type="text" class="form-control" id="inputLastName" name="lastname">
+                              <div id="lname_error" class="val_error"></div>
+                        </div>	
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                             <label for="inputEmail">EMAIL <span>*</span></label>
+                             <input type="email" class="form-control" id="inputEmail" name="youremail">
+                             <div id="email_error" class="val_error"></div>
+                           </div>
+                           <div class="form-group col-md-6">
+                              <label for="inputPhone">TELEFONE: <span>*</span></label>
+                              <input type="text" class="form-control" id="inputPhone" name="yourphoneno">
+                              <div id="phone_error" class="val_error"></div>
+                        </div>	
+                      </div>
+                      <div class="form-group mt-0">
+                        <label for="exampleFormControlTextarea1">MENSAGEM: <span>*</span></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="yourmessage"></textarea><div id="message_error" class="val_error"></div>
+                      </div>
+                    <div class="form-button pt-4">
+                        <button type="submit" class="btn btn-success btn-block btn-lg" value="Register" name="register"><span>Enviar</span></button>
+                    </div>
             </div>
-        </section>
+        </div>
+    </div>
     <div class="p-4 bg-success">
         <section class="quem-somos ">
             <h1 class="text-center sobre__titulo text-light">Gostou? Converse com um consultor!</h1>
