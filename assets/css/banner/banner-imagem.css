@@ -18,7 +18,7 @@
 @media screen and (min-width: 768px) {
     .banner__imagem {
         height: calc(100vh - 130px);
-        opacity: 20%;
+        opacity: 55%;
     }
 
 
